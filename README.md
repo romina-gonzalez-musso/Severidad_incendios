@@ -7,6 +7,9 @@
 
 - [**1.** Python: obtención de imágenes con `GEE` y cáculo de NBR]()
 
+[![Abrir en
+Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_%5B1%5D_Compuesto_rango_fechas.ipynb)
+
 - [**2.** R: cálculo del perímetro del incendio y clasificación por
   clases de severidad USGS]()
 
