@@ -7,9 +7,11 @@
 
 #### **Antes de empezar:**
 
-- [**1.** Librerías y paquetes a usar]()
+- [**1.** Librerías y paquetes a
+  usar](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/4_Librerias.md)
 
-- [**2.** Sugerencia: ¿cómo armar bien el proyecto de procesamiento?]()
+- [**2.** Sugerencia: ¿cómo armar bien el proyecto de
+  procesamiento?](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/5_Proyecto.md)
 
 #### **Códigos:**
 

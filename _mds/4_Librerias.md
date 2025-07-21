@@ -3,7 +3,7 @@
 
 ### **1. Google Earth Engine (GEE)**
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_GEE.jpeg" width="30%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_GEE.jpg" width="30%" />
 
 Se debe tener una cuenta de usuario de GEE con Cloud Project habilitado.
 
@@ -13,11 +13,11 @@ corre en *javascript*.
 
 ### **2. Python - Dos opciones:**
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_python.png" width="30%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_Python.png" width="30%" />
 
 #### **2a. Con Google Colab** *(recomendado para principiantes)*
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_Colab.jpeg" width="30%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_Colab.jpg" width="30%" />
 
 Se puede ejecutar GEE usando Colab. Solo se necesita una cuenta de gmail
 para acceder a los notebooks de Colab.
@@ -38,7 +38,7 @@ Jupyter notebooks al directorio local.
 
 ### **3. R y librerías**
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_R.png" width="30%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_R.png" width="15%" />
 
 Se necesitan las siguientes librerías de R:
 

@@ -9,7 +9,7 @@ output:
 ### **1. Google Earth Engine (GEE)**
 
 ```{r, echo=FALSE, out.width="30%", fig.cap=""}
-knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_GEE.jpeg")
+knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_GEE.jpg")
 ```
 
 Se debe tener una cuenta de usuario de GEE con Cloud Project habilitado. 
@@ -18,13 +18,13 @@ En este repositorio se mostrará el uso de GEE en Python. Pero el mismo procedim
 
 ### **2. Python - Dos opciones:**
 ```{r, echo=FALSE, out.width="30%", fig.cap=""}
-knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_python.png")
+knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_Python.png")
 ```
 
 
 #### **2a. Con Google Colab** *(recomendado para principiantes)*
 ```{r, echo=FALSE, out.width="30%", fig.cap=""}
-knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_Colab.jpeg")
+knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_Colab.jpg")
 ```
 
 Se puede ejecutar GEE usando Colab. Solo se necesita una cuenta de gmail para acceder a los notebooks de Colab. 
@@ -41,7 +41,7 @@ Para ejecutar GEE en Python en forma local. En este caso se debe instalar solame
 
 
 ### **3. R y librerías**
-```{r, echo=FALSE, out.width="30%", fig.cap=""}
+```{r, echo=FALSE, out.width="15%", fig.cap=""}
 knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_R.png")
 ```
 
