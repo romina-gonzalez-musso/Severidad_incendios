@@ -17,21 +17,28 @@ knitr::include_graphics("_images/1_caratula_readme.png")
 ----------------------------------------
 ### **GEE desde Python + R**
 
+#### **Antes de empezar:**
 
-- [**1.** Python: obtención de imágenes con `Google Earth Engine (GEE)` y cáculo de NBR](https://github.com/romina-gonzalez-musso/Severidad_incendios/tree/main/_mds/1_Python_notebooks_GEE.md)
+- [**1.** Librerías y paquetes a usar]()
+
+- [**2.** Sugerencia: ¿cómo armar bien el proyecto de procesamiento?]()
+
+#### **Códigos:**
+
+- [**1.** Python: obtener imágenes con `Google Earth Engine (GEE)` y calcular NBR](https://github.com/romina-gonzalez-musso/Severidad_incendios/tree/main/_mds/1_Python_notebooks_GEE.md)
 
 - [**2.** R: cálculo del perímetro del incendio y clasificación por clases de severidad USGS](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/2_R_perimetro_superficies.md)
 
 - [**3.** R: cálculo de superficies afectadas por tipo de bosque y clases de severidad USGS](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/3_R_Supeficies_tipo_ftal.md)
 
-### **Todo en R con rgee**
+#### **Otra opción: todo en R con `rgee`**
 
-Ejemplo de uso del paquete `rgee` para usar GEE en R y realizar el flujo de trabajo completamente en ese lenguaje. 
+En 2022 hicimos el mismo procesamiento usando `rgee` y completamente en R. 
 
-[Link al repositorio usando como ejemplo el incendio Steffen-Martin 2022](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22?tab=readme-ov-file)
+[Acá el link al repositorio](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22?tab=readme-ov-file) donde estimamos severidad para el incendio del Steffen-Martin 2022. 
 
 
-#### **BIBLIOGRAFÍA MENCIONADA EN EL REPOSITORIO**
+#### **BIBLIOGRAFÍA MENCIONADA EN ESTE REPOSITORIO**
 
 - CIEFAP, MAyDS, 2016. Actualización de la Clasificación de Tipos Forestales y Cobertura del Suelo de la Región Bosque Andino Patagónico. Informe Final. [Acceso el documento](https://www.argentina.gob.ar/sites/default/files/informe_final_ccs_bap_20160712.pdf)
 
