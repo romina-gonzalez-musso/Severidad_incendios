@@ -31,7 +31,7 @@ Si ya se conoce las fechas de las imágenes porque se buscaron en algún explora
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Imagen_seleccionada.ipynb)
 
-[![Abrir notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Imagen_seleccionada.ipynb)
+[![Abrir notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Imagen_seleccionada.ipynb)
 
 ### **Opción 2: buscar imágenes con un rango de fechas**{#Notebook1}
 
@@ -39,7 +39,7 @@ Si no se buscaron imágenes de antemano, se puede crear un compuesto de imágene
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Compuesto_rango_fechas.ipynb)
 
-[![Abrir notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Compuesto_rango_fechas.ipynb)
+[![Abrir notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Compuesto_rango_fechas.ipynb)
 
 
 

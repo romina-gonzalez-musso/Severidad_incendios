@@ -24,7 +24,7 @@ explorador externo (Ej. Copernicus Browser)
 Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Imagen_seleccionada.ipynb)
 
 [![Abrir
-notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Imagen_seleccionada.ipynb)
+notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Imagen_seleccionada.ipynb)
 
 ### **Opción 2: buscar imágenes con un rango de fechas**
 
@@ -36,4 +36,4 @@ Tratar que el rango sea lo más acotado posible.
 Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Compuesto_rango_fechas.ipynb)
 
 [![Abrir
-notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Compuesto_rango_fechas.ipynb)
+notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Compuesto_rango_fechas.ipynb)
