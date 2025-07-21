@@ -4,13 +4,13 @@ output:
   github_document
 ---
 
-## **2. SUPERFICIES POR TIPO FORESTAL**
+## **3. SUPERFICIES POR TIPO FORESTAL**
 
 <img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/4_R_severidad_tipo_ftal.png" width="45%" />
 
 Esta sección utiliza como inputs: 
 
-- La [Clasificación de Tipos Forestales y Cobertura del Suelo de la Región Bosque Andino Patagónico (CIEFAP, MAyDS 2016)](https://www.argentina.gob.ar/sites/default/files/informe_final_ccs_bap_20160712.pdf). 
+- La *Clasificación de Tipos Forestales y Cobertura del Suelo de la Región Bosque Andino Patagónico* [(CIEFAP, MAyDS 2016)](https://www.argentina.gob.ar/sites/default/files/informe_final_ccs_bap_20160712.pdf). 
 
 - El dNBR clasificado (.tif) y el perímetro de incendio (.shp) obtenidos en [la sección anterior](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/2_R_perimetro_superficies.md). 
 
