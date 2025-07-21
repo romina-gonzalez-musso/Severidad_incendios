@@ -9,13 +9,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## **2. OBTENER PERÍMETRO DEL INCENDIO Y CALCULAR SUPERFICIES**
-```{r, echo=FALSE, out.width="48%", fig.cap=""}
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
 knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/3_R_perimetro.png")
 ```
 
-El **dNBR (.tif)** obtenido con GEE se procesa en R para obtener el **perímetro del incendio**, calcular la **superficie total** y la **superficie por clase de severidad** de [acuerdo a USGS.](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio). 
+El **dNBR (.tif)** obtenido con GEE se procesa en R para obtener el **perímetro del incendio**, calcular la **superficie total** y la **superficie por las clases de severidad** de [USGS](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio). 
 
-Los pasos están detallados en este tutorial de [estimación de superficies de incendio afectadas por categoría de severidad USGS](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22/blob/master/_mds/2_NBR.md). Sin embargo, este repositorio tiene algunas actualizaciones que mejoran la aplicación de la función. 
+Los pasos están detallados en este tutorial de [estimación de superficies de incendio afectadas por categoría de severidad USGS](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22/blob/master/_mds/2_NBR.md). Leerlo puede ser útil para comprender cómo se obtiene el área quemada. Sin embargo, este repositorio tiene algunas actualizaciones que mejoran la aplicación de la función. 
   
 
 ### **Opción 1: usando directamente la función `Procesar_incendio`**
@@ -31,15 +31,14 @@ Sups <- procesar_incendio(nbr_dir = nbr_dir,          # Indicar el directorio do
                           coords = coords)            # Opcional: indicar coordenadas Posgar F1 para ayudar a ubicar los polígonos de incendio
 ```
 
+[![Abrir en R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_3_perimetro_incendio_funcion.R)
 
-[![Abrir en R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)]()
-
-
+OBSERVACIÓN: La [función](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/R_Functions/Procesar_incendio.R) tiene que estar descargada en el directorio local de trabajo.  
 
 ### **Opción 2: script completo paso a paso**
 
 Si se quiere ir ejecutando gradualmente la secuencia de pasos para ver los resultados parciales y hacer modificaciones al código, este es el script completo.  
 
-[![Abrir en R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)]()
+[![Abrir en R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_3_perimetro_incendio_paso_a_paso.R)
 
 
