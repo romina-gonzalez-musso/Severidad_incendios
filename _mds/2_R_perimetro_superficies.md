@@ -10,10 +10,10 @@ El **dNBR (.tif)** obtenido con GEE se procesa en R para obtener el
 
 Los pasos están detallados en este tutorial de [estimación de
 superficies de incendio afectadas por categoría de severidad
-USGS](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22/blob/master/_mds/2_NBR.md).
-Leerlo puede ser útil para comprender cómo se obtiene el área quemada.
-Sin embargo, este repositorio tiene algunas actualizaciones que mejoran
-la aplicación de la función.
+USGS](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22/blob/master/_mds/2_NBR.md)
+y puede ser útil para comprender cómo se obtiene el área quemada. Sin
+embargo, las funciones de este repositorio tienen algunas
+actualizaciones y mejoras.
 
 ### **Opción 1: usando directamente la función `Procesar_incendio`**
 
