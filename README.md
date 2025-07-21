@@ -14,7 +14,8 @@
   USGS](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/2_R_perimetro_superficies.md)
 
 - [**3.** R: cálculo de superficies afectadas por tipo de bosque y
-  clases de severidad USGS]()
+  clases de severidad
+  USGS](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/3_R_Supeficies_tipo_ftal.md)
 
 ### **Todo en R con rgee**
 
