@@ -13,7 +13,7 @@ Como resultado se exportan los siguientes productos (assets):
 
 - Índice de severidad de incendio (dNBR) (en formato .tif)
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/tree/main/_images/2_PyGEE.png" width="12%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/2_PyGEE.png" width="12%" />
 
 ### **Opción 1: buscar imágenes de fecha conocida**
 
