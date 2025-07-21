@@ -1,7 +1,7 @@
 
 ## **1. BÚSQUEDA Y DESCARGA DE IMÁGENES CON GEE EN PYTHON**
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/2_PyGEE.png" width="80%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/2_PyGEE.png" width="60%" />
 
 Se ejecuta GEE usando la API de Python. Se puede utilizar en forma local
 (requiere instalación en el sistema) o a partir de Google Colab (no
