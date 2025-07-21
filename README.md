@@ -5,10 +5,8 @@
 
 ### **GEE desde Python + R**
 
-- [**1.** Python: obtención de imágenes con `GEE` y cáculo de NBR]()
-
-[![Abrir en
-Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Compuesto_rango_fechas.ipynb)
+- [**1.** Python: obtención de imágenes con `GEE` y cáculo de
+  NBR](https://github.com/romina-gonzalez-musso/Severidad_incendios/tree/main/_mds/1_Python_notebooks_GEE.md)
 
 - [**2.** R: cálculo del perímetro del incendio y clasificación por
   clases de severidad USGS]()
@@ -18,8 +16,11 @@ Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.
 
 ### **Todo en R con rgee**
 
-[Link al
-repositorio](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22?tab=readme-ov-file)
+Ejemplo de uso del paquete `rgee` para usar GEE en R y realizar el flujo
+de trabajo completamente en ese lenguaje.
+
+[Link al repositorio usando como ejemplo el incendio Steffen-Martin
+2022](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22?tab=readme-ov-file)
 
 #### **BIBLIOGRAFÍA MENCIONADA EN EL REPOSITORIO**
 
