@@ -1,6 +1,8 @@
 
 ## **1. BÚSQUEDA Y DESCARGA DE IMÁGENES CON GEE EN PYTHON**
 
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/2_PyGEE.png" width="80%" />
+
 Se ejecuta GEE usando la API de Python. Se puede utilizar en forma local
 (requiere instalación en el sistema) o a partir de Google Colab (no
 requiere instalación, más sencillo de usar la primera vez).
@@ -12,8 +14,6 @@ Como resultado se exportan los siguientes productos (assets):
 - Imagen Post-Incendio multibanda (en formato .tif)
 
 - Índice de severidad de incendio (dNBR) (en formato .tif)
-
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/2_PyGEE.png" width="12%" />
 
 ### **Opción 1: buscar imágenes de fecha conocida**
 
