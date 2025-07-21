@@ -34,6 +34,7 @@ par(mfrow=c(1,2))
 plot(dNBR, main = "NBR", col = grey.colors(15), legend = FALSE)
 plot(burnedArea_rast, main = "Área quemada", legend = FALSE, col = "red")
 
+
 # Poligonizar y seleccionar polígonos de mayor tamaño
 burnedArea_vect <- burnedArea_rast %>%
   as.polygons(.) %>%    # Del paquete terra
@@ -223,3 +224,5 @@ writeRaster(nbr_f1_crop, paste0(out_dir, "dNBR_croped_f1.tif"))
 # dNBR en Faja 1 cortado al área de incendio y clasificado USGS
 writeRaster(nbr_class, paste0(out_dir, "dNBR_classified.tif"))
 
+# Guardar tabla de superficies de clases USGS
+write.csv2(Sups, paste0(out_dir, "Sups_x_claseSeveridad.csv"), row.names = TRUE)

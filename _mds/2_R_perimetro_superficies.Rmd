@@ -1,0 +1,45 @@
+---
+always_allow_html: true
+output:
+  github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## **2. OBTENER PERÍMETRO DEL INCENDIO Y CALCULAR SUPERFICIES**
+```{r, echo=FALSE, out.width="48%", fig.cap=""}
+knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/3_R_perimetro.png")
+```
+
+El **dNBR (.tif)** obtenido con GEE se procesa en R para obtener el **perímetro del incendio**, calcular la **superficie total** y la **superficie por clase de severidad** de [acuerdo a USGS.](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio). 
+
+Los pasos están detallados en este tutorial de [estimación de superficies de incendio afectadas por categoría de severidad USGS](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22/blob/master/_mds/2_NBR.md). Sin embargo, este repositorio tiene algunas actualizaciones que mejoran la aplicación de la función. 
+  
+
+### **Opción 1: usando directamente la función `Procesar_incendio`**
+
+Más sencillo, solamente se deben indicar los parámetros de la función: 
+
+```{r Test, message=FALSE, warning=FALSE, paged.print=FALSE, eval = FALSE}
+Sups <- procesar_incendio(nbr_dir = nbr_dir,          # Indicar el directorio donde está en dNBR.tif
+                          output_dir = output_dir,    # Indicar un directorio de salida de todos los productos
+                          buffer_size = buffer_size,  # Indicar unn área buffer de búsqueda de polígonos de incendio (Ej 200)
+                          n_poligonos = n_poligonos,  # Indicar el número de polígonos "grandes" a evaluar como quemados (Ej. 3)
+                          umbral = umbral,            # Umbral de valores considerados "quemados". Según USGS >100 = quemado
+                          coords = coords)            # Opcional: indicar coordenadas Posgar F1 para ayudar a ubicar los polígonos de incendio
+```
+
+
+[![Abrir en R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)]()
+
+
+
+### **Opción 2: script completo paso a paso**
+
+Si se quiere ir ejecutando gradualmente la secuencia de pasos para ver los resultados parciales y hacer modificaciones al código, este es el script completo.  
+
+[![Abrir en R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)]()
+
+

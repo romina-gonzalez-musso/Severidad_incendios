@@ -5,7 +5,8 @@
 
 ### **GEE desde Python + R**
 
-- [**1.** Python: obtención de imágenes con `GEE` y cáculo de
+- [**1.** Python: obtención de imágenes con `Google Earth Engine (GEE)`
+  y cáculo de
   NBR](https://github.com/romina-gonzalez-musso/Severidad_incendios/tree/main/_mds/1_Python_notebooks_GEE.md)
 
 - [**2.** R: cálculo del perímetro del incendio y clasificación por

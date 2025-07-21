@@ -16,7 +16,7 @@ library("raster")
 # Llamar a las funciones
 source("/home/romina/Descargas/2025-08_Taller_APN_Severidad_incendios/Functions/USGSxTipoFtal_funciones.R")
 
-# TRAER EL dNBR --------------------------------------------
+# TRAER EL dNBR y el shape del CIEFAP --------------------------------------------
 dir_ciefap <-"/home/romina/Documentos/GIS/GIS_SHAPES/Neuquén_Bosque_Nativo/2016_CIEFAP_Clasificacion_FINAL_Julio-2016/2_RN_vf_20160616/clas_mer_BAP_continental_modentr_vf_rn.shp"
 dir_nbr_class <- "/home/romina/Descargas/2025-08_Taller_APN_Severidad_incendios/Outputs/dNBR_classified.tif"
 
@@ -35,7 +35,7 @@ unique(clasif_ciefap_incendio$Ley_N2)
 Tipo_ftal <- "Co"
 
 # Aplicar la función que extrae los polígonos de del tipo Ftal
-Tipo_ftal <- shapeUSGSxTipoFtal(x)
+Tipo_ftal <- shapeUSGSxTipoFtal(Tipo_ftal)
 Tipo_ftal$ID <- 1:nrow(Tipo_ftal)
 
 # Función para calcular la superficie por clase de severidad
