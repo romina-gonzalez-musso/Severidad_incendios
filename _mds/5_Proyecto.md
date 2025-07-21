@@ -4,7 +4,7 @@
 Para reproducir en forma ordenada el procesamiento, es conveniente
 ordenar el directorio de trabajo de una manera similar a la siguiente:
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/5_Proyecto_codigo.png" width="50%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/5_Proyecto_codigo.png" width="65%" />
 
 *Notas:*
 

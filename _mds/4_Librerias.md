@@ -17,7 +17,7 @@ corre en *javascript*.
 
 #### **2a. Con Google Colab** *(recomendado para principiantes)*
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_colab.jpg" width="22%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_colab.jpg" width="19%" />
 
 Se puede ejecutar GEE usando Colab. Solo se necesita una cuenta de gmail
 para acceder a los notebooks de Colab.
@@ -30,7 +30,7 @@ computadora.
 
 #### **2b. En instalación local** *(recomendado para usuarios avanzados)*
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_jupyter.png" width="22%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_jupyter.png" width="20%" />
 
 Para ejecutar GEE en Python en forma local. En este caso se debe
 instalar solamente [*geemap*](https://geemap.org/) y descargar los
@@ -38,7 +38,7 @@ Jupyter notebooks al directorio local.
 
 ### **3. R y librerías**
 
-<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_R.png" width="14%" />
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_R.png" width="12%" />
 
 Se necesitan las siguientes librerías de R:
 

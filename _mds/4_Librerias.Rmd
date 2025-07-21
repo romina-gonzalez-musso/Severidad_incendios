@@ -23,7 +23,7 @@ knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_ince
 
 
 #### **2a. Con Google Colab** *(recomendado para principiantes)*
-```{r, echo=FALSE, out.width="22%", fig.cap=""}
+```{r, echo=FALSE, out.width="19%", fig.cap=""}
 knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_colab.jpg")
 ```
 
@@ -33,7 +33,7 @@ Se puede ejecutar GEE usando Colab. Solo se necesita una cuenta de gmail para ac
 Es una plataforma en la nube que permite escribir y ejecutar código Python para tareas de ciencia de datos. Ya trae instalado GEE y *geemap* y permite exportar los productos (ej. imágenes) a Google Drive sin necesidad de instalar nada en al computadora. 
 
 #### **2b. En instalación local** *(recomendado para usuarios avanzados)*
-```{r, echo=FALSE, out.width="22%", fig.cap=""}
+```{r, echo=FALSE, out.width="20%", fig.cap=""}
 knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_jupyter.png")
 ```
 
@@ -41,7 +41,7 @@ Para ejecutar GEE en Python en forma local. En este caso se debe instalar solame
 
 
 ### **3. R y librerías**
-```{r, echo=FALSE, out.width="14%", fig.cap=""}
+```{r, echo=FALSE, out.width="12%", fig.cap=""}
 knitr::include_graphics("https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/Logo_R.png")
 ```
 
