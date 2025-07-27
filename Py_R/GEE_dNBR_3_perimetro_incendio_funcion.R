@@ -6,11 +6,11 @@
 ### ------------------------------------------------- ######
 
 # LLAMAR A LA FUNCIÓN
-source("/home/romina/Descargas/2025-08_Taller_APN_Severidad_incendios/Functions/Procesar_incendio.R")
+source("./Functions/Procesar_incendio.R")
 
 # SETEAR PARÁMETROS: 
-nbr_dir <- "/home/romina/Descargas/2025-08_Taller_APN_Severidad_incendios/Outputs/GEE/dNBR.tif"
-output_dir <- "/home/romina/Descargas/2025-08_Taller_APN_Severidad_incendios/Outputs/R_function/"
+nbr_dir <- "./Outputs/GEE/dNBR.tif"
+output_dir <- "./Outputs/R_procesamiento_incendio/"
 
 umbral <- 100       # Umbral de área quemada (>100 es quemado según USGS)
 buffer_size <- 200  # Buffer para buscar área quemada

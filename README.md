@@ -27,6 +27,9 @@
   clases de severidad
   USGS](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/3_R_Supeficies_tipo_ftal.md)
 
+- [**4.** R: trayectorias potenciales de largo
+  plazo](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/6_R_Regeneracion_perdida_potencial.md)
+
 #### **Otra opción: todo en R con `rgee`**
 
 En 2022 hicimos el mismo procesamiento usando `rgee` y completamente en
@@ -46,3 +49,12 @@ donde estimamos severidad para el incendio del Steffen-Martin 2022.
 - Parks S.A, Dillon G.K., Miller C. 2014. A new metric for quantifying
   burn severity: the relativized burn ratio. Remote Sens. 6: 1827-1844.
   <https://doi.org/10.3390/rs6031827>
+
+- Kitzberger T., Paritsis J., Gowda J., Gonzalez Musso R., Tiribelli F.,
+  Grosfeld J., Presti P., Bari M., Carp A., Giménez R., Lípori M. 2023.
+  [Relevamiento satelital de severidad y estimaciones de trayectorias
+  sucesionales de bosques afectados por el Incendio Steffen‐Martin
+  2021‐22, Parque Nacional Nahuel
+  Huapi.](https://www.nahuelhuapi.gov.ar/multimedios/macroscopia_11.pdf)
+  Macroscopía: divulgación ténico científica del patrimonio natural y
+  cultural del Parque Nacional Nahuel Huapí. Vol. 11: p8‐14.

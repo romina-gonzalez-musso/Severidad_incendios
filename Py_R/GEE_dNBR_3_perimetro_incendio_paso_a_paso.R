@@ -16,7 +16,7 @@ library("dplyr")
 library("raster")
 
 # TRAER EL dNBR --------------------------------------------
-dNBR <- rast("/home/romina/Descargas/2025-08_Taller_APN_Severidad_incendios/Outputs/GEE/dNBR.tif")
+dNBR <- rast("./Outputs/GEE/dNBR.tif")
 
 # Proyectar (en ese caso a F1)
 dNBR <- project(dNBR, "EPSG:22181")
@@ -210,7 +210,7 @@ Sups
 rm(class_usgs, burnedArea_rast)
 
 # GUARDAR PRODUCTOS -------------------------
-out_dir <- "/home/romina/Descargas/2025-08_Taller_APN_Severidad_incendios/Outputs/"
+out_dir <- "./Outputs/R_procesamiento_incendio/"
 
 # Perímetro del incendio
 perimeter_f1 <- vect(perimeter_f1)

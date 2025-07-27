@@ -22,10 +22,11 @@ lenguaje *JavaScript*.
 Google Colab es una plataforma en la nube que permite escribir y
 ejecutar código en Python, especialmente útil para tareas de ciencia de
 datos. Solo se necesita una cuenta de Gmail para acceder. Colab ya
-incluye herramientas como Google Earth Engine (GEE) y la librería geemap
-preinstaladas, lo que facilita el trabajo sin necesidad de instalar nada
-en la computadora. Además, permite exportar productos (por ejemplo,
-imágenes) directamente a Google Drive.
+incluye herramientas como Google Earth Engine (GEE) y la librería
+[*geemap*](https://geemap.org/) preinstaladas, lo que facilita el
+trabajo sin necesidad de instalar nada en la computadora. Además,
+permite exportar productos (por ejemplo, imágenes) directamente a Google
+Drive.
 
 #### **2b. En instalación local** *(recomendado para usuarios avanzados)*
 
@@ -50,10 +51,5 @@ install.packages("terra")
 install.packages("sf")
 install.packages("dplyr")
 install.packages("raster")
-
-# Probar que se hayan instalado bien
-library("terra")
-library("sf")
-library("dplyr")
-library("raster")
+install.packages("tidyterra")
 ```

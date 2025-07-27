@@ -1,0 +1,47 @@
+---
+always_allow_html: true
+output:
+  github_document
+---
+
+## **4. TRAYECTORIAS POTENCIALES DE LARGO PLAZO**
+
+<img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/6_Trayectorias.png" width="45%" />
+
+Como fue calculado para el incendio Steffen-Martin 2022 [(Kitzberger et al. 2023)](https://www.nahuelhuapi.gov.ar/multimedios/macroscopia_11.pdf), se pueden estimar las trayectorias potenciales de largo plazo de los distintos tipos de vegetación. Para los tipos forestales dominados por especies que regeneran por semilla (coihue, coihue-ciprés, ciprés y lenga), **la regeneración potencial** se estima a partir de las áreas con severidad baja o moderada-baja, así como de zonas no quemadas ubicadas dentro de un buffer de 30 metros. La **pérdida potencial** se calcula como la diferencia entre el área afectada por el incendio y el área con regeneración potencial.
+
+Esto se implementó en el siguiente código de R, que tiene como *inputs* el dNBR clasificado, el perímetro del incendio y las Clasificación de Tipos Forestales del CIEFAP.
+
+
+---
+
+### **Opción 1: usando la función `potRegNatural`**
+
+Más sencillo, solamente se deben indicar los parámetros de la función:
+
+```{r Test, message=FALSE, warning=FALSE, paged.print=FALSE, eval = FALSE}
+
+potRegNatural(dir_dNBR = dir_dNBR,                        # Directorio donde está el dNBR (.tif)
+              dir_perimetro = dir_perimetro,              # Directorio donde está el perímetro (.shp)
+              dir_clasif_ciefap = dir_clasif_ciefap,      # Directorio donde está la Clasif. CIEFAP (.shp)
+              output_dir = output_dir,                    # Directorio de salida de resultados
+              semilleros = c("Ci", "Co", "Le"),           # Indicar tipos ftales semilleros
+              clases_severidad_baja = c(4, 5),            # Clases de severidad baja (4) y moderada-baja (5)
+              buffer_dist = 30)                           # Distancia a semilleros de baja severidad
+```
+
+
+[![Abrir en
+R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_5_Regeneracion_perdida_potencial_funcion.R)
+
+
+---
+
+### **Opción 2: ver el paso a paso**
+
+Si se quiere ir ejecutando gradualmente la secuencia de pasos para ver los resultados parciales y hacer modificaciones al código, este es el script completo.
+
+[![Abrir en
+R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_5_Regeneracion_perdida_potencial_paso_a_paso.R)
+
+---

@@ -7,13 +7,17 @@ Se ejecuta GEE usando la API de Python. Se puede utilizar en forma local
 (requiere instalación en el sistema) o a partir de Google Colab (no
 requiere instalación, más sencillo de usar la primera vez).
 
-Como resultado se exportan los siguientes productos (assets):
+Como **resultado** se exportan los siguientes productos (assets) en
+Google Drive:
 
 - Imagen Pre-Incendio multibanda (en formato .tif)
 
 - Imagen Post-Incendio multibanda (en formato .tif)
 
-- Índice de severidad de incendio (dNBR) (en formato .tif)
+- Índice de severidad de incendio (dNBR) (en formato .tif). Sin
+  clasificar!
+
+------------------------------------------------------------------------
 
 ### **Opción 1: buscar imágenes de fecha conocida**
 
@@ -26,6 +30,8 @@ Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.
 [![Abrir
 notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Imagen_seleccionada.ipynb)
 
+------------------------------------------------------------------------
+
 ### **Opción 2: buscar imágenes con un rango de fechas**
 
 Si no se buscaron imágenes de antemano, se puede crear un compuesto de
@@ -37,3 +43,5 @@ Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.
 
 [![Abrir
 notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Compuesto_rango_fechas.ipynb)
+
+------------------------------------------------------------------------

@@ -15,9 +15,14 @@ y puede ser útil para comprender cómo se obtiene el área quemada. Sin
 embargo, las funciones de este repositorio tienen algunas
 actualizaciones y mejoras.
 
+------------------------------------------------------------------------
+
 ### **Opción 1: usando directamente la función `Procesar_incendio`**
 
-Más sencillo, solamente se deben indicar los parámetros de la función:
+Más sencillo, la
+[función](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/R_Functions/Procesar_incendio.R)
+debe estar descargada en el directorio de trabajo y solo se le deben
+indicar los parámetros:
 
 ``` r
 Sups <- procesar_incendio(nbr_dir = nbr_dir,          # Indicar el directorio donde está en dNBR.tif
@@ -31,9 +36,7 @@ Sups <- procesar_incendio(nbr_dir = nbr_dir,          # Indicar el directorio do
 [![Abrir en
 R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_3_perimetro_incendio_funcion.R)
 
-OBSERVACIÓN: La
-[función](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/R_Functions/Procesar_incendio.R)
-tiene que estar descargada en el directorio local de trabajo.
+------------------------------------------------------------------------
 
 ### **Opción 2: script completo paso a paso**
 
@@ -43,3 +46,5 @@ script completo.
 
 [![Abrir en
 R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_3_perimetro_incendio_paso_a_paso.R)
+
+------------------------------------------------------------------------
