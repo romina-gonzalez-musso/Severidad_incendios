@@ -30,6 +30,8 @@
 - [**4.** R: trayectorias potenciales de largo
   plazo](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/6_R_Regeneracion_perdida_potencial.md)
 
+------------------------------------------------------------------------
+
 #### **Otra opción: todo en R con `rgee`**
 
 En 2022 hicimos el mismo procesamiento usando `rgee` y completamente en
@@ -38,6 +40,8 @@ R.
 [Acá el link al
 repositorio](https://github.com/romina-gonzalez-musso/Severidad_Incendio-Steffen-Martin22?tab=readme-ov-file)
 donde estimamos severidad para el incendio del Steffen-Martin 2022.
+
+------------------------------------------------------------------------
 
 #### **BIBLIOGRAFÍA MENCIONADA EN ESTE REPOSITORIO**
 
