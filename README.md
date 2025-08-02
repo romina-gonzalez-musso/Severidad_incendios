@@ -1,5 +1,5 @@
 
-<img src="_images/1_caratula_readme.png" width="80%" style="display: block; margin: auto;" />
+<img src="_images/1_caratula_readme_2.png" width="80%" style="display: block; margin: auto;" />
 
 ------------------------------------------------------------------------
 

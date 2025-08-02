@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r, echo=FALSE, out.width="80%", fig.cap="", fig.align="center"}
 
-knitr::include_graphics("_images/1_caratula_readme.png")
+knitr::include_graphics("_images/1_caratula_readme_2.png")
 
 ```
 
