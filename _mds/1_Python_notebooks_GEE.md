@@ -25,10 +25,10 @@ Si ya se conoce las fechas de las imágenes porque se buscaron en algún
 explorador externo (Ej. Copernicus Browser)
 
 [![Abrir en
-Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Imagen_seleccionada.ipynb)
+Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Imagen_seleccionada.ipynb)
 
 [![Abrir
-notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Imagen_seleccionada.ipynb)
+notebook](https://img.shields.io/badge/Ver%20Notebook%20en-Jupyter-orange?logo=jupyter)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_1_Imagen_seleccionada.ipynb)
 
 ------------------------------------------------------------------------
 
