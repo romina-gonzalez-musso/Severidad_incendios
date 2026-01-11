@@ -1,6 +1,8 @@
 
 ## **2. OBTENER PERÍMETRO DEL INCENDIO Y CALCULAR SUPERFICIES**
 
+*ACTUALIZADO: Enero 2026*
+
 <img src="https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_images/3_R_perimetro.png" width="30%" />
 
 El **dNBR (.tif)** obtenido con GEE se procesa en R para obtener el
@@ -27,14 +29,13 @@ indicar los parámetros:
 ``` r
 Sups <- procesar_incendio(nbr_dir = nbr_dir,          # Indicar el directorio donde está en dNBR.tif
                           output_dir = output_dir,    # Indicar un directorio de salida de todos los productos
-                          buffer_size = buffer_size,  # Indicar unn área buffer de búsqueda de polígonos de incendio (Ej 200)
-                          n_poligonos = n_poligonos,  # Indicar el número de polígonos "grandes" a evaluar como quemados (Ej. 3)
                           umbral = umbral,            # Umbral de valores considerados "quemados". Según USGS >100 = quemado
-                          coords = coords)            # Opcional: indicar coordenadas Posgar F1 para ayudar a ubicar los polígonos de incendio
+                          poligono = poligono,        # Shape del área a procesar
+                          area_min = area_min)        # Superficie mínima de los polígonos quemados. Para eliminar ruido
 ```
 
 [![Abrir en
-R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_3_perimetro_incendio_funcion.R)
+R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Procesar_incendio_funcion.R)
 
 ------------------------------------------------------------------------
 
@@ -45,6 +46,6 @@ los resultados parciales y hacer modificaciones al código, este es el
 script completo.
 
 [![Abrir en
-R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_3_perimetro_incendio_paso_a_paso.R)
+R](https://img.shields.io/badge/Abrir_en-R-276DC3?logo=R&logoColor=white)](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/Py_R/GEE_dNBR_2_Procesar_incendio_paso_a_paso.R)
 
 ------------------------------------------------------------------------

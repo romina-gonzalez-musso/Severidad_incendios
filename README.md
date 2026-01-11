@@ -21,7 +21,7 @@
 
 - [**2.** R: cálculo del perímetro del incendio y clasificación por
   clases de severidad
-  USGS](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/2_R_perimetro_superficies.md)
+  USGS](https://github.com/romina-gonzalez-musso/Severidad_incendios/blob/main/_mds/2_R_perimetro_superficies_new.md)
 
 - [**3.** R: cálculo de superficies afectadas por tipo de bosque y
   clases de severidad
