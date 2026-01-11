@@ -5,8 +5,6 @@
 # Versión: RGM Enero 2026
 ### ------------------------------------------------- ######
 
-library(tidyterra)
-
 # LLAMAR A LA FUNCIÓN
 source("./Functions/Procesar_incendio.R")
 
@@ -19,7 +17,7 @@ output_dir <- "./Outputs/R_procesamiento_incendio/"
 poligono <- "./Inputs/Area_incendio_Alerces.shp"  
 
 umbral <- 100            # Umbral de área quemada (>100 es quemado según USGS)
-area_min <- 13000        # Eliminar ruido. Polígonos menores a un umbral de superficie en m2. Ej. 13000m2 = 3ha
+area_min <- 15000        # Eliminar ruido. Polígonos menores a un umbral de superficie en m2. Ej. 15000m2 = 1.5ha
 
 
 # Correr la función (puede demorar 1 o 2 min):

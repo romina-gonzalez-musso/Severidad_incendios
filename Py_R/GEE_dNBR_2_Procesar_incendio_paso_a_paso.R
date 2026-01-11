@@ -46,8 +46,9 @@ perimeter <- perimeter %>%
   mutate(area = st_area(perimeter))
 
 # Eliminar polígonos sueltos (ruido) 
+area_min <- 15000  # En m2
 perimeter$sup <- as.numeric(perimeter$area)
-perimeter <- subset(perimeter, sup > 100000) 
+perimeter <- subset(perimeter, sup > area_min) 
 
 # Graficar
 par(mfrow=c(1,1))
