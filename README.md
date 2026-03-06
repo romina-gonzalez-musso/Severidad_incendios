@@ -20,7 +20,7 @@ directamente desde una Google Earth Engine App.
 
 - Superficies por tipo forestal:️ 🚧 *aún no implementado* ️🚧
 
-- Trayectorias sucesionales:️ 🚧 *aún no implementado* ️🚧
+- Trayectorias potenciales de largo plazo:️ 🚧 *aún no implementado* ️🚧
 
 - Si querés conocer el paso a paso del proceso, mirá la sección de
   código 👇

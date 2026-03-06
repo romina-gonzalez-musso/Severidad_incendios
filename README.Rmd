@@ -32,7 +32,7 @@ Se puede reproducir parte del flujo de trabajo de este repositorio directamente 
  
 - Superficies por tipo forestal:️ 🚧 *aún no implementado* ️🚧
 
-- Trayectorias sucesionales:️ 🚧 *aún no implementado* ️🚧
+- Trayectorias potenciales de largo plazo:️ 🚧 *aún no implementado* ️🚧
 
 - Si querés conocer el paso a paso del proceso, mirá la sección de código 👇
 
