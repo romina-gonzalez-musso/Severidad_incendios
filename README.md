@@ -1,9 +1,37 @@
 
-<img src="_images/1_caratula_readme_2.png" width="80%" style="display: block; margin: auto;" />
+<img src="_images/1_caratula_readme_2.png" alt="" width="80%" style="display: block; margin: auto;" />
 
 ------------------------------------------------------------------------
 
-### **GEE desde Python + R**
+### **¡NUEVO! - App interactiva, cero programación**
+
+Se puede reproducir parte del flujo de trabajo de este repositorio
+directamente desde una Google Earth Engine App.
+
+### 🛰️ [Link a la App - modo visualizador](https://ee-gonzalezmusso-conicet.projects.earthengine.app/view/severidad-incendios-patagonia)
+
+### ⬇️ [Link a la App - modo descarga de resultados](https://code.earthengine.google.com/3a1cd7e45b581a6c284791b34a04d190)
+
+**Notas:**
+
+- Aún la estamos testeando. Puede tener fallos (Marzo-2026) 🧑‍💻
+
+- Cálculo de severidad y delimitación del perímetro del incendio ✅️︎
+
+- Selector de sensor (Landsat y Sentinel) ✅️
+
+- Exportar resultados (requiere cuenta de GEE) ✅️︎
+
+- Superficies por tipo forestal:️ 🚧 *aún no implementado* ️🚧
+
+- Trayectorias potenciales de largo plazo:️ 🚧 *aún no implementado* ️🚧
+
+- Si querés conocer el paso a paso del proceso, mirá la sección de
+  código 👇
+
+------------------------------------------------------------------------
+
+### ⚡💻 **Programando: usando GEE desde Python + R**
 
 #### **Antes de empezar:**
 
@@ -32,7 +60,7 @@
 
 ------------------------------------------------------------------------
 
-#### **Otra opción: todo en R con `rgee`**
+#### ⚡💻 **Otra opción: todo en R con `rgee`**
 
 En 2022 hicimos el mismo procesamiento usando `rgee` y completamente en
 R.
