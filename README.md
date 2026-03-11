@@ -10,7 +10,7 @@ directamente desde una Google Earth Engine App.
 
 ### 🛰️ [Link a la App - modo visualizador](https://ee-gonzalezmusso-conicet.projects.earthengine.app/view/severidad-incendios-patagonia)
 
-### ⬇️ [Link a la App - modo descarga de resultados](https://code.earthengine.google.com/3a1cd7e45b581a6c284791b34a04d190)
+### ⬇️ [Link a la App - modo descarga de resultados](https://code.earthengine.google.com/ef4140754ca4c44a41063472da3fb723)
 
 **Notas:**
 
